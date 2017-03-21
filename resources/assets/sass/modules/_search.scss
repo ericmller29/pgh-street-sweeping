@@ -1,0 +1,26 @@
+.search{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	max-width: 1120px;
+	padding: 30px;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	background: rgba(0,0,0,0.9);
+
+	h2{
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 2em;
+		margin-bottom: 0;
+
+		span{
+			color: $accent-color;
+		}
+	}
+
+	p{
+		margin-bottom: 30px;
+	}
+}

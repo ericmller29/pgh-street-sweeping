@@ -1,0 +1,21 @@
+.logo{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	float: left;
+
+	span{
+		display: inline-block;
+		vertical-align: bottom;
+
+		>span{
+			color: $accent-color;
+		}
+	}
+	img{
+		width: 100px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 20px;
+	}
+}

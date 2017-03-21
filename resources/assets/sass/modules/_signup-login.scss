@@ -1,0 +1,49 @@
+.signup-login{
+	width: 100%;
+	position: relative;
+	margin-bottom: 50px;
+
+	.column{
+		float: right;
+		width: 45%;
+		padding: 50px 0;
+
+		h2{
+			margin-top: 0;
+		}
+
+		&:first-child{
+			float: left;
+		}
+
+		&:first-child:after{
+			content: '';
+			position: absolute;
+			width: 1px;
+			height: 100%;
+			background: #222;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+
+		&:first-child:before{
+			content: 'OR';
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background: #fff;
+			padding: 5px;
+			z-index: 10;
+			font-weight: bolder;
+		}
+	}
+
+	&:after{
+		display: block;
+		content: '';
+		clear: both;
+	}
+}

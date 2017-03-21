@@ -1,0 +1,22 @@
+.btn{
+	border: none;
+	background: $accent-color;
+	padding: 10px 15px;
+	font-size: 1em;
+	text-transform: uppercase;
+	border-radius: 3px;
+	border-bottom: solid 3px rgba(0,0,0, 0.3);
+	font-weight: bold;
+	transition: background 0.3s;
+
+	&:hover{
+		cursor: pointer;
+		background: darken($accent-color, 5);
+	}
+
+	i{
+		margin-right: 5px;
+		position: relative;
+		top: -1px;
+	}
+}

@@ -1,0 +1,11 @@
+.header{
+	width: 100%;
+	background: url(../img/header_bg.jpg) no-repeat;
+	background-size: cover;
+	padding: 40px;
+	position: relative;
+
+	&.homepage{
+		height: 100%;
+	}
+}

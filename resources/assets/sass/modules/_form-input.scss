@@ -1,0 +1,61 @@
+.form-input{
+	position: relative;
+
+	input{
+		width: 100%;
+		padding: 10px 15px;
+		font-size: 1em;
+		border: none;
+		border-bottom: solid 4px rgba(0,0,0,0.2);
+		border-radius: 3px;
+	}
+
+	&.homepage-search .btn{
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+	}
+
+	&.homepage-search{
+		padding-right: 135px;
+	}
+
+	&.with-margin-bottom{
+		margin-bottom: 25px;
+	}
+
+	&.with-icon-right{
+		position: relative;
+
+		i{
+			position: absolute;
+			top: 46%;
+			right: 15px;
+			transform: translateY(-50%);
+			color: #ddd;
+		}
+	}
+
+	&.with-border{
+		border: solid 1px rgba(0,0,0,0.2);
+		border-radius: 3px;
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		font-weight: normal;
+		letter-spacing: 2px;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+		font-weight: normal;
+		letter-spacing: 2px;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+		font-weight: normal;
+		letter-spacing: 2px;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+		font-weight: normal;
+		letter-spacing: 2px;
+	}
+}

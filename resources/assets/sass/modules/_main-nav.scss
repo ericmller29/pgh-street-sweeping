@@ -1,0 +1,34 @@
+.main-nav{
+	float: right;
+    color: #fff;
+    font-weight: bold;
+
+	a{
+		color: #fff;
+		transition: color 0.3s;
+		text-transform: uppercase;
+		display: inline-block;
+		margin-left: 20px;
+		text-decoration: none;
+
+		&:first-child{
+			margin-left: 0;
+		}
+
+		&:hover{
+			color: $accent-color;
+		}
+
+		&.active{
+			color: $accent-color;
+		}
+	}
+
+	.signup-login-btn{
+		margin-left: 40px;
+
+		a{
+			margin: 0;
+		}
+	}
+}
