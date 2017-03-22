@@ -10,5 +10,22 @@
 			<span class="sep">></span>
 			<span>{{ $hood->name }}</span>
 		</nav>
+		<div class="streets">
+			<p class="none-found text-center">
+				No streets found, help us out won't you and <a href="#">add one</a>?
+			</p>
+			<section class="street">
+				<h3>Foreland St.</h3>
+			</section>
+			<section class="street">
+				<h3>Foreland St. 2</h3>
+			</section>
+			<section class="street">
+				<h3>Foreland St. 3</h3>
+			</section>
+			<section class="street">
+				<h3>Foreland St. 4</h3>
+			</section>
+		</div>
 	</div>
 @endsection
