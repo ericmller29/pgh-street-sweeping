@@ -16,6 +16,7 @@ Route::get('/signup-login', function(){
 	return view('signup-login');
 });
 Route::get('/schedule', 'ScheduleController@index');
+Route::get('/schedule/{slug}', 'ScheduleController@specific');
 Route::get('/about-us', function(){
 	return view('about');
 });

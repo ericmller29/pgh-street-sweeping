@@ -12,7 +12,7 @@
 		<ul class="neighborhood-list">
 			@foreach($hoods as $hood)
 			<li>
-				<a href="#">
+				<a href="{{ url('/schedule/' . $hood->slug ) }}">
 					{{ $hood->name }}
 
 					<i class="fa fa-chevron-right"></i>
