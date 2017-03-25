@@ -4,6 +4,10 @@
 @import "mixins/media-query";
 
 @import "layout/header";
+@import "layout/footer";
+@import "layout/page-wrap";
+@import "layout/main-content";
+@import "layout/sidebar";
 
 @import "modules/btn";
 @import "modules/container";
@@ -16,3 +20,6 @@
 @import "modules/signup-login";
 @import "modules/breadcrumbs";
 @import "modules/streets";
+@import "modules/no-results";
+@import "modules/inline-results";
+@import "modules/advert";

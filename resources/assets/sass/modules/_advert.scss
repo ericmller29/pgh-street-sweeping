@@ -1,0 +1,15 @@
+.advert{
+	width: 100%;
+	height: 250px;
+	background: #444;
+	position: relative;
+
+	&:before{
+		content: 'Advertisement';
+		position: absolute;
+		color: #fff;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}

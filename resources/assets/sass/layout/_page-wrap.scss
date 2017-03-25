@@ -1,0 +1,15 @@
+.page-wrap{
+	min-height: 100%;
+	margin-bottom: -55px;
+	padding-bottom: 40px;
+
+	&.homepage{
+		height: 100%;
+	}
+
+	&:after{
+		content: '';
+		clear: both;
+		display: block;
+	}
+}

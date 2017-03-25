@@ -4,10 +4,13 @@
 	left: 50%;
 	width: 100%;
 	max-width: 1120px;
-	padding: 30px;
 	transform: translate(-50%, -50%);
 	color: #fff;
-	background: rgba(0,0,0,0.9);
+
+	.search-bg{
+		background: rgba(0,0,0,0.9);
+		padding: 30px;
+	}
 
 	h2{
 		text-transform: uppercase;

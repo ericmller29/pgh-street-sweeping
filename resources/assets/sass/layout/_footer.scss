@@ -1,0 +1,32 @@
+.footer{
+	background: #222;
+	color: #fff;
+	padding: 20px;
+	width: 100%;
+	font-size: 0.8em;
+	position: relative;
+	z-index: 9999;
+	line-height: normal;
+
+	span{
+		display: inline-block;
+	}
+	.footer-nav{
+		display: inline-block;
+
+		a{
+			display: inline-block;
+
+			&:before{
+				font-family: 'FontAwesome';
+				content: '\f111';
+				display: inline-block;
+				margin: 0 10px;
+				font-size: 0.3em;
+				vertical-align: middle;
+				color: #fff;
+				pointer-events: none;
+			}
+		}
+	}
+}

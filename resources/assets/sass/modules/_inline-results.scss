@@ -1,0 +1,45 @@
+.inline-results{
+	position: absolute;
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	top: 100%;
+	left: 0;
+	z-index: 999;
+	padding: 0 165px 0 30px;
+	opacity: 0;
+	transition: opacity 0.3s, top 0.3s;
+	pointer-events: none;
+
+	.loader, .no-results{
+		background: #fff;
+		padding: 20px;
+		margin: 0;
+
+		img{
+			width: 30px;
+		}
+
+		a:hover{
+			color: #222;
+		}
+	}
+
+	&.active{
+		top: 90%;
+		opacity: 1;
+		pointer-events: auto;
+	}
+
+	li:not(.no-results) a{
+		display: block;
+		background: #fff;
+		padding: 20px;
+		transition: color 0.3s, background 0.3s;
+
+		&:hover{
+			background: $accent-color;
+		}
+	}
+}

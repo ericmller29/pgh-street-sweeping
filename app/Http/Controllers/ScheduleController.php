@@ -8,10 +8,14 @@ use App\Neighborhoods;
 
 class ScheduleController extends Controller
 {
-    public function index(){
-    	$data['hoods'] = Neighborhoods::where('approved', 1)->paginate(10);
+    public function index(Request $request){
+    	$data['hoods'] = Neighborhoods::where('approved', 1)->get();
 
-    	return view('schedule/main', $data);
+    	if($request->ajax()){
+    		return response()->json($data['hoods']);
+    	}else{
+    		return view('schedule/main', $data);
+    	}
     }
 
     public function specific(Request $request){
